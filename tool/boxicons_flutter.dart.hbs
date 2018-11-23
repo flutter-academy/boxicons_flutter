@@ -1,0 +1,10 @@
+library boxicons_flutter;
+
+import 'package:flutter/widgets.dart';
+import 'package:boxicons_flutter/icon_data.dart';
+
+class Boxicons {
+  {{#each icons}}
+  static const IconData {{name}} = const BoxiconsIconData(0x{{codePoint}});
+  {{/each}}
+}

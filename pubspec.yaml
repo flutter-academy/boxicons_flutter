@@ -1,0 +1,19 @@
+name: boxicons_flutter
+description: Boxicons as Flutter Icons
+version: 1.0.0
+author: Fu Cheng <alexcheng1982@gmail.com>
+homepage: https://github.com/flutter-academy/boxicons_flutter
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: Boxicons
+      fonts:
+        - asset: lib/fonts/boxicons.ttf
+          weight: 400
