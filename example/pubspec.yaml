@@ -1,0 +1,11 @@
+name: boxicons_flutter_example
+description: Example of using Boxicons
+
+dependencies:
+  flutter:
+    sdk: flutter
+  boxicons_flutter:
+    path: ../
+
+flutter:
+  uses-material-design: true
